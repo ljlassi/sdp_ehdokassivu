@@ -14,9 +14,14 @@ Main style sheet for the theme.
 */
 
 body {
-    background-color:#f7f7f7;
+    background-color:white;
     padding-top:40px;
-    font-family: Tahoma, Geneva, sans-serif
+    font-family: 'Barlow', sans-serif;
+    color:#28282d;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .admin-bar .sticky-header {
@@ -40,7 +45,7 @@ a:hover, a:active {
 
 .navi {
     color:white;
-    background-color:darkblue;
+    background-color:#f54b4b;
     text-transform: uppercase;
     font-weight: 400;
     font-size:0.85rem;
@@ -56,7 +61,7 @@ a.navilink:link, .navilink:visited {
 
 a.navilink:hover, .navilink:active {
     font-weight: bold;
-    color:blue !important;
+    color:#be0a37 !important;
     text-decoration: none;
     padding-top:1rem;
     padding-bottom:1rem;
@@ -80,7 +85,7 @@ a.brandlink:hover, .brandlink:active {
     background-color:rgba(255, 255, 255, 1.0)
 }
 .navi-ul li.show:hover {
-    background-color:darkblue;
+    background-color:#f54b4b;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -93,22 +98,22 @@ a.brandlink:hover, .brandlink:active {
 }
 
 div.content-main a:link {
-    color:darkblue;
+    color:#be0a37;
     text-decoration: none;
 }
 
 div.content-main a:visited {
-    color:darkblue;
+    color:#be0a37;
     text-decoration: none;
 }
 
 div.content-main a:hover {
-    color:blue;
+    color:#f54b4b;
     text-decoration: none;
 }
 
 div.content-main a:active {
-    color:blue;
+    color:#f54b4b;
     text-decoration: none;
 }
 
@@ -118,5 +123,5 @@ div.content-main a:active {
 
 .footer {
     color:white;
-    background-color:darkblue;
+    background-color:#f54b4b;
 }
