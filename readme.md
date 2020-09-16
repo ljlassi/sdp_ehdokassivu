@@ -1,1 +1,1 @@
-Ljtmi-base teema, koodipohja jonka pohjalta lähteä rakentamaan teemaa.
+Theme for SDP (Finnish Social Democratic Party) 2021 municipal election candidates.
