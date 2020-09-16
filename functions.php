@@ -205,6 +205,7 @@ function show_posts_nav() {
 
 function sdp_ehdokassivu_add_excerpt_support_for_pages() {
     add_post_type_support( 'page', 'excerpt' );
+	add_post_type_support( 'post', 'excerpt' );
 }
 add_action( 'init', 'sdp_ehdokassivu_add_excerpt_support_for_pages' );
 
