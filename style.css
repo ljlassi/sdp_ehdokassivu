@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*
+Theme Name: Lassi Jääskeläinen tmi SDP candidate theme
+Theme URI: http://lassijaaskelainen.fi
+Author: Lassi Jääskeläinen
+Author URI: http://lassijaaskelainen.fi
+Description: Theme for SDP municipal election candidates
+Version: 0.1
+Text Domain: sdp_ehdokassivu
+
+Main style sheet for the theme.
+
+
+*/
+
+body {
+    background-color:#f7f7f7;
+    padding-top:40px;
+    font-family: Tahoma, Geneva, sans-serif
+}
+
+.admin-bar .sticky-header {
+    top: 32px;
+}
+
+a:link, a:visited {
+    color:rgba(255, 255, 255, 1.0);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color:rgba(255, 255, 255, 1.0);
+    text-decoration: underline;
+}
+
+.banner-img {
+    height: 100%;
+    width: 100%;
+}
+
+.navi {
+    color:white;
+    background-color:darkblue;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:0.85rem;
+}
+
+a.navilink:link, .navilink:visited {
+    font-weight: bold;
+    color:rgba(255, 255, 255, 1.0) !important;
+    text-decoration: none;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+a.navilink:hover, .navilink:active {
+    font-weight: bold;
+    color:blue !important;
+    text-decoration: none;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+a.brandlink:link, .brandlink:visited {
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 400;
+    font-size:1.1rem;
+}
+
+a.brandlink:hover, .brandlink:active {
+    text-decoration: underline;
+    text-transform: none;
+    font-weight: 400;
+    font-size:1.1rem;
+}
+
+.navi-ul li:hover {
+    background-color:rgba(255, 255, 255, 1.0)
+}
+.navi-ul li.show:hover {
+    background-color:darkblue;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navi-ul li:hover {
+        background-color:transparent;
+    }
+    .navi {
+        min-height:50px;
+    }
+}
+
+div.content-main a:link {
+    color:darkblue;
+    text-decoration: none;
+}
+
+div.content-main a:visited {
+    color:darkblue;
+    text-decoration: none;
+}
+
+div.content-main a:hover {
+    color:blue;
+    text-decoration: none;
+}
+
+div.content-main a:active {
+    color:blue;
+    text-decoration: none;
+}
+
+.spacing-featured-image {
+    height:25px;
+}
+
+.footer {
+    color:white;
+    background-color:darkblue;
+}
