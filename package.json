@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ljlassi/ljtmi-base-theme"
+    "url": "git+https://github.com/ljlassi/sdp_ehdokassivu"
   },
   "author": "Lassi Jääskeläinen",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/ljlassi/ljtmi-base-theme"
+    "url": "https://github.com/ljlassi/sdp_ehdokassivu"
   },
-  "homepage": "https://github.com/ljlassi/ljtmi-base-theme#readme",
+  "homepage": "https://github.com/ljlassi/sdp_ehdokassivu#readme",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
