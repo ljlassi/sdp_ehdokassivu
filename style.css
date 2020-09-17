@@ -24,6 +24,28 @@ h1, h2, h3, h4, h5 {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+.frontpage-header-banner {
+    background-image: url(img/banner.jpg);
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+       the content's height is greater than the image's height
+    background-attachment: fixed;
+    */
+    background-size: cover;
+    background-color: white;
+    height:450px;
+}
+
+@media only screen and (max-width:996px) {
+    .frontpage-header-banner {
+        height:300px;
+    }
+}
+
 .blog-page-title {
     text-align:center;
     padding-bottom:0.65rem;
@@ -56,7 +78,6 @@ a:hover, a:active {
     height: 100%;
     width: 100%;
 }
-
 .navi {
     color:white;
     background-color:#f54b4b;
