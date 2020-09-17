@@ -29,6 +29,15 @@ h1, h2, h3, h4, h5 {
     padding-bottom:0.65rem;
 }
 
+.frontpage-box {
+    background-color: #be0a37;
+    color:white;
+    min-height:175px;
+}
+div.frontpage-box h4 {
+    color:white;
+}
+
 .admin-bar .sticky-header {
     top: 32px;
 }
