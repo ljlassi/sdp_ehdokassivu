@@ -9,23 +9,23 @@
 <?php get_header(); ?>
 
     <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-0 col-lg-1">
         </div>
-        <div class="col-md-10 pt-2">
+        <div class="col-md-12 col-lg-10 p-2">
             <div class="row">
-                <div class="col-md-4 p-3">
+                <div class="col-sm-12 col-md-4 p-3">
                     <div class="frontpage-box p-2">
                         <h4 class="text-center">Yhteystiedot</h4>
                         <p>Praesent in arcu vel lectus varius dictum. Aenean et condimentum massa. Suspendisse dapibus consectetur ipsum vel mollis. Curabitur tincidunt pulvinar tellus iaculis sodales. Aliquam aliquam egestas viverra. Donec sed mi ultricies, viverra orci eu, placerat risus. Sed eget metus eu erat euismod sodales.</p>
                     </div>
                 </div>
-                <div class="col-md-4 p-3">
+                <div class="col-sm-12 col-md-4 p-3">
                     <div class="frontpage-box p-2">
                         <h4 class="text-center">Vaaliteemat</h4>
                         <p>Curabitur ullamcorper purus mauris, nec facilisis lectus venenatis a. Sed luctus, lorem luctus dapibus tempus, neque justo tincidunt massa, id lacinia tortor enim quis eros. Donec mollis nibh eget lectus lacinia imperdiet. Nulla cursus porta nunc. Sed a consectetur arcu, ac commodo dui.</p>
                     </div>
                 </div>
-                <div class="col-md-4 p-3">
+                <div class="col-sm-12 col-md-4 p-3">
                     <div class="frontpage-box p-2">
                         <h4 class="text-center">Tapahtumat</h4>
                         <p>Nullam a efficitur ante. Sed molestie iaculis mauris ut pharetra. Suspendisse in varius sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean in purus eget ex maximus blandit. Nunc laoreet feugiat arcu, vitae dapibus ex euismod ut.</p>
@@ -33,14 +33,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-0 col-lg-1">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-3 col-sm-0 spacing-sides">
+        <div class="col-sm-0 col-md-1 col-lg-3 spacing-sides">
         </div>
-        <div class="col-md-6 col-sm-12 content-main pt-2">
+        <div class="col-sm-12 col-md-10 col-lg-6 content-main pt-2">
             <div class="main p-3">
                 <?php
 
@@ -57,13 +57,13 @@
                 ?>
             </div>
         </div>
-        <div class="col-md-3 col-sm-0 spacing-sides">
+        <div class="col-sm-0 col-md-1 col-lg-3 spacing-sides">
         </div>
     </div>
         <div class="row">
-            <div class="col-md-2 col-sm-0 spacing-sides">
+            <div class="col-sm-0 col-md-1 col-lg-2 col-sm-0 spacing-sides">
             </div>
-            <div class="col-md-8 col-sm-12 content-main pt-5">
+            <div class="col-sm-12 col-md-10 col-lg-8 content-main pt-5">
                 <div class="row">
         <?php
         $recent_posts = wp_get_recent_posts(array(
@@ -90,7 +90,8 @@
         <?php endforeach; wp_reset_query(); ?>
         </div>
         </div>
-            <div class="col-md-2 col-sm-0 spacing-sides">
+            <div class="col-sm-0 col-md-1 col-lg-2 spacing-sides">
             </div>
         </div>
 <?php get_footer(); ?>
+
